@@ -1,0 +1,84 @@
+.header{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    background-color: rgb(51, 51, 51);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 5px;
+    z-index: 2;
+}
+.header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 115px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.menu-item{
+    list-style: none;
+    
+}
+.title{
+    width: 100%;
+    height: 100%;
+    color: aqua;
+    font-size: 20px;
+    cursor: pointer;
+}
+.title:hover{
+    text-shadow: 5px 5px 6px;
+}
+.sub-menu{
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    background-color: rgb(51, 51, 51);
+    list-style: none;
+    position: absolute;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;
+}
+.sub-menu li{
+    padding-top: 5px;
+}
+.sub-menu a{
+    color: rgb(255, 0, 0);
+}
+.sub-menu a:hover{
+    text-shadow: 5px 7px 4px;
+}
+.title-menu{
+    color: aqua;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+.title-menu:hover{
+    text-shadow: 5px 7px 4px;
+}
+.sub-menu2{
+    overflow: hidden;
+    opacity: 0;     
+    height: 0;
+    background-color: rgb(51, 51, 51);
+    list-style: none;
+    position: absolute;
+    top: 114px;
+    left: 0px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px;    
+}
