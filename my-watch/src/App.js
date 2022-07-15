@@ -1,12 +1,13 @@
 import React from 'react';
 import {
   Route,
-  Link,
+  BrowserRouter,
   Routes
 } from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainPage from './Component/MainPage';
+import AboutWatch from './Component/AboutWatch';
 
 
 
@@ -14,15 +15,14 @@ import MainPage from './Component/MainPage';
 
 
 function App() {
-  return (<Routes>
-    <Route exact path="/">
-      <MainPage />
-    </Route>
-    <Route path="/about">
-      <div>111</div>
-    </Route>
-  </Routes>
-)   
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route exact path="/" element={<MainPage />} />
+        <Route exact path="/about" element={<AboutWatch />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 

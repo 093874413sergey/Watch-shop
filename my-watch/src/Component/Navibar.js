@@ -4,11 +4,11 @@ import { Button,Form,Navbar,Container,Nav,NavDropdown,FormControl } from 'react-
 
 export default function NaviBar() {
     return (
-        
+
 <div className='Container_blok'>
         <Navbar bg="light" expand="lg">
   <Container className='header' fluid>
-    <img className='img_navbar'src='https://i.pinimg.com/474x/fb/70/7b/fb707b2455bf6435bc637c5e5019ce67.jpg' alt='#'/>
+    <img className='img_navbar' src='https://i.pinimg.com/474x/fb/70/7b/fb707b2455bf6435bc637c5e5019ce67.jpg' alt='#'/>
     <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
     <Navbar.Toggle aria-controls="navbarScroll" />
     <Navbar.Collapse id="navbarScroll">
@@ -18,7 +18,7 @@ export default function NaviBar() {
         navbarScroll
       >
         <Nav.Link href="#action1">Home</Nav.Link>
-        <Nav.Link href="#action2">Link</Nav.Link>
+        <Nav.Link href="about">Link</Nav.Link>
         <NavDropdown title="Link" id="navbarScrollingDropdown">
           <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
           <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
