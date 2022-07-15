@@ -1,0 +1,79 @@
+.Carusel2 {
+position: absolute;
+top: 2500px;
+left: 0px;
+max-width: 100%;
+padding: 0px 130px;
+}
+.carousel-caption {
+    color: rgb(84, 69, 69);
+}
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(84, 69, 69);
+}
+
+
+.Buy {
+    position: relative;
+    top: 90px;
+    left: 260px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    background-color: chocolate;
+    border-radius: 10px;
+    z-index: 20;
+}
+
+.card_1,
+.card_2,
+.card_3,
+.card_4  {
+  max-width: 1900px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_1 img,
+.card_2 img,
+.card_3 img,
+.card_4 img {
+    width: 500px;
+    height: 300px;
+      
+}
+.blok_1_1,
+.blok_1_2,
+.blok_1_3,
+
+.blok_2_1,
+.blok_2_2,
+.blok_2_3,
+
+.blok_3_1,
+.blok_3_2,
+.blok_3_3, 
+
+ .blok_4_1,
+ .blok_4_2,
+ .blok_4_3 {
+position: relative;
+top: 0px;
+left: 0px;
+max-width: 1000px;
+height: 500px;
+margin: 0px 70px;
+border: solid rgb(84, 69, 69);
+}
+
+.name{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.Text_slay2 {
+    padding: 0px 70px;
+    font-family: sans-serif;
+    font-size: 20px;
+}

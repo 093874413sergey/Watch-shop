@@ -1,76 +1,49 @@
 import React from 'react';
+import './Navibar.css';
+import { Button,Form,Navbar,Container,Nav,NavDropdown,FormControl } from 'react-bootstrap';
 
 export default function NaviBar() {
     return (
-    <div>
-    <header className="header">  
-    <img src="https://kartinkin.net/uploads/posts/2021-07/1626229109_8-kartinkin-com-p-karmannie-chasi-art-art-krasivo-9.jpg" alt="" />
-    <ul className="menu">
-        <li  className="menu-item">
-            <div  className="title">Rolex</div>
-            <ul  className="sub-menu">
-                <li><a href="#">Gellery</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Service</a></li>
-                <li  className="menu-item">
-                    <div  className="title-menu">Styles</div>
-                    <ul  className="sub-menu2">
-                        <li><a href="#">Classic</a></li>
-                        <li><a href="#">Skeleton</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li  className="menu-item">
-           <div  className="title"> Patek Philippe</div>
-            <ul  className="sub-menu">
-                <li><a href="#">Gellery</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Service</a></li>
-                <li  className="menu-item">
-                    <div  className="title-menu">Styles</div>
-                    <ul  className="sub-menu2">
-                        <li><a href="#">Classic</a></li>
-                        <li><a href="#">Skeleton</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li  className="menu-item">
-            <div  className="title">Vacheron-Constantin</div>
-            <ul  className="sub-menu">
-                <li><a href="#">Gellery</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Service</a></li>
-                <li  className="menu-item">
-                    <div  className="title-menu">Styles</div>
-                    <ul  className="sub-menu2">
-                        <li><a href="#">Classic</a></li>
-                        <li><a href="#">Skeleton</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li  className="menu-item">
-            <div  className="title">Ulysse Nardin</div>
-            <ul  className="sub-menu">
-                <li><a href="#">Gellery</a></li>
-                <li><a href="#">History</a></li>
-                <li><a href="#">Service</a></li>
-                <li  className="menu-item">
-                    <div  className="title-menu">Styles</div>
-                    <ul  className="sub-menu2">
-                        <li><a href="#">Classic</a></li>
-                        <li><a href="#">Skeleton</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul> 
-</header>
-    </div>
+        
+<div className='Container_blok'>
+        <Navbar bg="light" expand="lg">
+  <Container className='header' fluid>
+    <img className='img_navbar'src='https://i.pinimg.com/474x/fb/70/7b/fb707b2455bf6435bc637c5e5019ce67.jpg' alt='#'/>
+    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+    <Navbar.Toggle aria-controls="navbarScroll" />
+    <Navbar.Collapse id="navbarScroll">
+      <Nav
+        className="me-auto my-2 my-lg-0"
+        style={{ maxHeight: '100px' }}
+        navbarScroll
+      >
+        <Nav.Link href="#action1">Home</Nav.Link>
+        <Nav.Link href="#action2">Link</Nav.Link>
+        <NavDropdown title="Link" id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action5">
+            Something else here
+          </NavDropdown.Item>
+        </NavDropdown>
+      </Nav>
+      <Form className="d-flex">
+        <FormControl
+          type="search"
+          placeholder="Search"
+          className="me-2"
+          aria-label="Search"
+        />
+        <Button variant="outline-success">Search</Button>
+      </Form>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+
+</div>
     )
-}8i
+}
 
 
 

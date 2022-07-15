@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import './Slayder.css'
+import './Slayder.css';
+
 
 export default function Slayder () {
 return(
@@ -8,8 +9,8 @@ return(
 <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-old-pocket-watch-robert-chlopas.jpg"
+      className="d-block"
+      src="https://content.rolex.com/dam/watches/family-pages/yacht-master/roller-features-ym/professional-watches-yacht-master-beauty_m268621_0003_1708jva_001-re_portrait.jpg?imwidth=1080"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,8 +20,8 @@ return(
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="https://proprikol.ru/wp-content/uploads/2020/02/kartinki-krasivye-chasy-1-1.jpg"
+      className="d-block"
+      src="https://static.chrono24.com/cdn-cgi/image/f=auto,metadata=none,fit=cover,q=65,w=1200,h=600,dpr=2.0/magazine/wp-content/uploads/2021/11/Rolex-Datejust-2-1.jpg"
       alt="Second slide"
     />
 
@@ -31,8 +32,8 @@ return(
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="https://proprikol.ru/wp-content/uploads/2020/02/kartinki-krasivye-chasy-16.jpg"
+      className="d-block"
+      src="https://vipgold.in.ua/files/uploads/Blog/original-23r.jpg"
       alt="Third slide"
     />
 
