@@ -13,6 +13,7 @@ function MainPage() {
 <Content />
 <Slayder2 />
 <Footer />
+
 </>
 
   )   

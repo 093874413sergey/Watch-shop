@@ -1,0 +1,56 @@
+.SlayderBuyR {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 30px 60px;
+    }
+    .carousel-caption {
+        color: rgb(84, 69, 69);
+    }
+    .carousel-indicators [data-bs-target]{
+        background-color: rgb(84, 69, 69);
+    }
+    .card_1BuyR,
+    .card_2BuyR,
+    .card_3BuyR,
+    .card_4BuyR  {
+      max-width: 100%;
+      height: 100%;
+      display: flex;
+      padding: 0px 45px;
+    }
+    .card_1BuyR img,
+    .card_2BuyR img,
+    .card_3BuyR img,
+    .card_4BuyR img {
+        max-width: 100%;
+        max-height: 100%;
+       
+    }
+    .Card_1_1BuyR,
+    .Card_1_2BuyR,
+    .Card_1_3BuyR,
+    
+    .Card_2_1BuyR,
+    .Card_2_2BuyR,
+    .Card_2_3BuyR,
+    
+    .Card_3_1BuyR,
+    .Card_3_2BuyR,
+    .Card_3_3BuyR, 
+    
+     .Card_4_1BuyR,
+     .Card_4_2BuyR,
+     .Card_4_3BuyR {
+    
+    max-width: 100%;
+    height: 515px;
+    margin: 0px 20px;
+    }
+    .Text_slay2BuyR {
+        padding: 40px 70px;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .card-bodyBuyR {
+        z-index: 10;
+    }

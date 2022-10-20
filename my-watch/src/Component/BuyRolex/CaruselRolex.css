@@ -1,0 +1,9 @@
+.foto-carusel {
+display: flex;
+}
+
+.CaruselRolex img {
+max-width: 100%;
+height: 300px;
+margin: 2px;
+}

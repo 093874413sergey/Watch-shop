@@ -1,0 +1,59 @@
+.Validation {
+    width: 100%;
+    height: 950px;
+}
+.Valid_body {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+}
+.blok_Left_Val {
+    width: 195px;
+    height: 100%;
+    background-color: rgb(84, 69, 69);
+    z-index: 2;
+}
+.blok_centre_Val {
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.email {
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+.trait {
+    width: 5px;
+    height: 100%;
+    margin: 0px 20px;
+    background-color: rgb(84, 69, 69);
+}
+
+.login_button {
+    margin: 20px 0px;
+}
+.blok_right_Val {
+    width: 195px;
+    height: 100%;
+    background-color: rgb(84, 69, 69);
+    z-index: 2;
+
+}
+.Valid_Register {
+    margin: 10px;
+}
+.valid_button {
+    display: flex;
+    margin: 10px 0px;
+}
+.b_1 {
+    padding: 10px 0px;
+}

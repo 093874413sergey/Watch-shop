@@ -1,0 +1,9 @@
+.foto-carusel3_0 {
+    display: flex;
+    }
+    
+    .CaruselRolex3_0 img {
+    max-width: 100%;
+    height: 300px;
+    margin: 2px;
+    }

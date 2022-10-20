@@ -7,15 +7,15 @@ export default function Content() {
 return(
 <div className="Content">
    <div className="blok_left">
-   <img className="Logo_Rolex" src="https://freepngimg.com/download/rolex/28107-5-rolex-logo-photos.png" alt="#" />
-   <img className="Logo_PatekPhilippe" src="https://cdn.worldvectorlogo.com/logos/patek-philippe-sa-1.svg" alt="#" />
+   <a href="about"><img className="Logo_Rolex" src="https://freepngimg.com/download/rolex/28107-5-rolex-logo-photos.png" alt="#" /></a>
+   <a href="aboutPP"><img className="Logo_PatekPhilippe" src="https://cdn.worldvectorlogo.com/logos/patek-philippe-sa-1.svg" alt="#" /></a>
    </div>
 
 <div className="blok_centre">
 <h1>Skeleton watch </h1>
     <div className="text">
         <div className="Rolex_a">
-         <a href=""><span>Rolex</span></a>
+         <a href="about"><span>Rolex</span></a>
         </div>
     <img className="img_watch" src="https://cdn.watchcharts.com/listings/8ad3f8f6-c116-4944-b42d-9a9c05e44f46?d=600x600" alt="#"/> 
     <span>Skeleton</span> - the brightest and most unusual watch model,
@@ -52,12 +52,13 @@ return(
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta, doloribus minus odio ea eveniet fugit perspiciatis optio, aspernatur unde nisi magnam quidem eius quae error! Amet, error? Dolorum, aliquid?
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ullam voluptates tenetur quas, repellat adipisci velit quia, necessitatibus accusamus architecto rerum voluptas neque rem reiciendis dolorum aliquam quos odio quis!
            
+
            
            
     </div>
     <div className="text2">
        <div className="Patek_a">
-       <a href=""><span>Patek Philippe</span></a>
+       <a href="aboutPP"><span>Patek Philippe</span></a>
        </div>
 <img className="img_watch2" src="https://static.patek.com/videos/articles/5180_1R_001/PatekPhilippe_5180_1R_001_500.jpg" alt="#"/> 
 <span>Patek Philippe SA is a Swiss watch manufacturer.
