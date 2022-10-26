@@ -1,13 +1,9 @@
 .WrapperPP {
-    position: relative;
     display: flex;
-    top: -10px;
-    left: 0px;
-    max-height: 1050px;
 }
 .Wrapper_leftPP {
     width: 195px;
-    height: 1150px;
+    max-height: 100%;
     background-color: rgb(84, 69, 69);
     z-index: 2;
 }
@@ -15,25 +11,26 @@
     width: 100%;
     max-height: 100%; 
     z-index: 1;
-    
 }
 .Wrapper_centrePP img {
     width: 100%;
-    max-height: 930px;
+    max-height: 100%;
 }
 .Wrapper_centrePP h1 {
     position: absolute;
-    top: 10px;
+    top: 100px;
     left: 46%;
     color: white;
 }
 .Wrapper_rightPP {
     width: 195px;
-    height: 1150px;
+    max-height: 100%;
     background-color: rgb(84, 69, 69);
     z-index: 2;
 }
 .Wrapper_textPP {
+    max-width: 100%;
+    max-height: 100%;
     font-size: 20px;
     font-family: sans-serif;
     padding: 10px;

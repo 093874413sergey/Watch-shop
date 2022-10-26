@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Route,
   BrowserRouter,
@@ -20,7 +20,7 @@ import BuyRolex4 from './Component/BuyRolex4/HeadR4_0';
 
 function App() {
   return (
-  <>
+    <>
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<MainPage />} />
@@ -36,11 +36,7 @@ function App() {
         <Route exact path='headRolex4_0' element={<BuyRolex4 />} />
         </Routes>
     </BrowserRouter>
-  
- 
     </>
   )
 }
-
-
 export default App;

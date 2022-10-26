@@ -1,33 +1,30 @@
 .Wrapper {
-    position: relative;
     display: flex;
-    top: -10px;
-    left: 0px;
-    max-height: 1050px;
 }
 .Wrapper_left {
     width: 195px;
-    height: 1150px;
+    max-height: 100%;
     background-color: rgb(84, 69, 69);
     z-index: 2;
 }
 .Wrapper_centre {
     width: 100%;
+    max-height: 100%;
     z-index: 1;
 }
 .Wrapper_centre img {
-    max-width: 100%;
+    width: 100%;
     max-height: 100%;
 }
 .Wrapper_centre h1 {
     position: absolute;
-    top: 10px;
+    top: 100px;
     left: 49%;
     color: white;
 }
 .Wrapper_right {
     width: 195px;
-    height: 1150px;
+    max-height: 100%;
     background-color: rgb(84, 69, 69);
     z-index: 2;
 }

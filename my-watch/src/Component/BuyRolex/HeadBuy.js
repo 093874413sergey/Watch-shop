@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import './HeadBuy.css';
 import Navibar from '../Navibar';
 import Footer from '../Footer';
@@ -9,8 +9,9 @@ import Video from "./Video";
 import InfoR from "./InfoR";
 import SlayderBuyR from "./SlayderBuyR";
 
-
 function HeadBuy () {
+    let [cartOpen, setCartOpen] = useState(false)
+
     return(
         <div className="head_buy">
 <Navibar />
@@ -52,6 +53,7 @@ function HeadBuy () {
 </div>
 
 <Footer />
+
         </div>
     )
 }

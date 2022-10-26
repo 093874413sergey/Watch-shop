@@ -30,7 +30,7 @@ function Head3_0 () {
                         <li><h2>Dimensions</h2>
                         <p>Diameter 43mm</p></li>
                         <li className="cost1_1 ">1590 $</li>
-                        <BsFillCartCheckFill className="buy_rolex1_1"/>
+                        <BsFillCartCheckFill className="buy_rolex1_1" />
                     </ul>
                     </div>
                                 <div className="carusel_video1_1">

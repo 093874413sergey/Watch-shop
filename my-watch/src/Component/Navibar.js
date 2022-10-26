@@ -39,12 +39,14 @@ export default function NaviBar() {
         />
         <Button variant="outline-success">Search</Button>
         <a href="Registration"><img className='reges' src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png"/></a>
-<FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`shop_icon ${cartOpen && 'active'}`}/>
+<FaShoppingCart onClick={() => setCartOpen(!cartOpen)} className={`shop_icon ${cartOpen && 'active'}`}/>
 {cartOpen && (
   <div className='shop_blok'>
 
   </div>
 )}
+
+   
       </Form>
     </Navbar.Collapse>
   </Container>

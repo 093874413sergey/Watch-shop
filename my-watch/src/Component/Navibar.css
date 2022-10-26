@@ -25,14 +25,14 @@
 }
 
 .shop_icon {
-    width: 60px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px;
  color: rgb(1,0,0);
  cursor: pointer;
  transition: color, transform  500ms ease;
 }
-.shop_icon:hover,
-.shop_icon.active {
+.shop_icon:hover {
     color: rgb(25,135,84);
     transform: scale(1.3);
 }

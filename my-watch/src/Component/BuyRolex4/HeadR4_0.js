@@ -1,5 +1,5 @@
 import React from "react";
-import './HeadR4_0';
+import './HeadR4_0.css';
 
 
 function HeadR4_0() {

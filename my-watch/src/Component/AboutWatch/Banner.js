@@ -20,19 +20,19 @@ function Banner() {
         Accusamus praesentium commodi totam
          perferendis assumenda ab animi possimus?
          Lorem ipsum dolor sit amet consectetur
-adipisicing elit. Illum deleniti error
-esse, sint dicta unde, fugit itaque
-voluptatibus nam, maiores repellendus!
- Accusamus praesentium commodi totam
-  perferendis assumenda ab animi possimus?
-  Lorem ipsum dolor sit amet consectetur
-adipisicing elit. Illum deleniti error
-esse, sint dicta unde, fugit itaque
-voluptatibus nam, maiores repellendus!
- Accusamus praesentium commodi totam
-  perferendis assumenda ab animi possimus?
-  Lorem ipsum dolor sit amet consectetur
-adipisicing elit. 
+            adipisicing elit. Illum deleniti error
+            esse, sint dicta unde, fugit itaque
+            voluptatibus nam, maiores repellendus!
+            Accusamus praesentium commodi totam
+            perferendis assumenda ab animi possimus?
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Illum deleniti error
+            esse, sint dicta unde, fugit itaque
+            voluptatibus nam, maiores repellendus!
+            Accusamus praesentium commodi totam
+            perferendis assumenda ab animi possimus?
+            Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. 
 
 </p>
 
