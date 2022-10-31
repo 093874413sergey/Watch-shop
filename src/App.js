@@ -13,10 +13,9 @@ import HistoryR from './Component/HistoryR/HeaderR';
 import HistoryPP from './Component/HistoryPP/HeaderHisPP';
 import Aboutus from './Component/Aboutus/AboutusHead';
 import Registration from './Component/Registration/RegHead';
-import BuyRolex from './Component/BuyRolex/HeadBuy';
-import BuyRolex2 from './Component/BuyRolex2/Head1_1';
-import BuyRolex3 from './Component/BuyRolex3/HeadR3_0';
-import BuyRolex4 from './Component/BuyRolex4/HeadR4_0';
+import CommonItemPage from './Component/CommonItemPage/CommonItemPage';
+
+import {itemsToSell} from './itemDescriptions'
 
 function App() {
   return (
@@ -30,10 +29,9 @@ function App() {
         <Route exact path="/historyPP" element={<HistoryPP />} />
         <Route exact path="/aboutus" element={<Aboutus />} />
         <Route exact path="/Registration" element={<Registration />} />
-        <Route exact path='headRolex1_0' element={<BuyRolex />} />
-        <Route exact path='headRolex2_0' element={<BuyRolex2 />} />
-        <Route exact path='headRolex3_0' element={<BuyRolex3 />} />
-        <Route exact path='headRolex4_0' element={<BuyRolex4 />} />
+        {itemsToSell.items.map(item => {
+          return <Route key={item.id} exact path={item.path} element={<CommonItemPage item={item} />} />
+        })}
         </Routes>
     </BrowserRouter>
     </>
