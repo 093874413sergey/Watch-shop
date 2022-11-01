@@ -1,6 +1,6 @@
 .Validation {
     width: 100%;
-    height: 950px;
+    max-height: 100%;
 }
 .Valid_body {
     position: relative;
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 700px;
+    height: 750px;
     z-index: 1;
 }
 .blok_Left_Val {
@@ -56,4 +56,8 @@
 }
 .b_1 {
     padding: 10px 0px;
+}
+.btn-primary {
+    background-color: rgb(38,31,31);
+    border-color: rgb(25,135,84);
 }

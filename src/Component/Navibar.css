@@ -26,16 +26,21 @@ margin: 15px 5px ;
 }
 
 .reges {
-    width: 40px;
+    width: 37px;
     height: 40px;
     margin: 15px 10px;
+    color:  rgb(38,31,31);
+    transition: color, transform  500ms ease;
 }
-
+.reges:hover {
+    color: rgb(25,135,84);
+    transform: scale(1.3);
+}
 .shop_icon {
-    width: 60px;
+    width: 67px;
     height: 60px;
     margin: 5px;
- color: rgb(1,0,0);
+    color:  rgb(38,31,31);
  cursor: pointer;
  transition: color, transform  500ms ease;
 }

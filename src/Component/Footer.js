@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css';
-
+import { BsInstagram, BsTelegram, BsFacebook } from 'react-icons/bs';
 
 
 export default function Footer() {
@@ -19,9 +19,9 @@ export default function Footer() {
                     <p>tel: +380938744136</p>
                 </div>
                 <div className="blok_3">
-                    <a href="https://www.instagram.com/verabyskeletonwatch/"><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/instagram_black_logo_icon_147122.png" /></a>
-                    <a href="#"><img src="https://papik.pro/uploads/posts/2021-11/1636121305_24-papik-pro-p-telegram-logotip-foto-24.png" /></a>
-                    <a href="#"><img src="https://cdn.icon-icons.com/icons2/2566/PNG/512/facebook_icon_153518.png" /></a>
+                    <a href="https://www.instagram.com/verabyskeletonwatch/"><BsInstagram className="icon_footer" /></a>
+                    <a href="#"><BsTelegram className="icon_footer"  /></a>
+                    <a href="#"><BsFacebook className="icon_footer"  /></a>
                 </div>
             </div>
 

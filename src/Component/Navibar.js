@@ -6,6 +6,7 @@ import logo1_0 from './WatchFoto/1.0.jpg';
 import logo2_0 from './WatchFoto/2.0.jpg';
 import logo3_0 from './WatchFoto/3.0.jpg';
 import { BsFillFilePlusFill, BsFileMinusFill } from 'react-icons/bs';
+import { BsFillFilePersonFill } from 'react-icons/bs';
 
 export default function NaviBar() {
   let [cartOpen, setCartOpen] = useState(false)
@@ -42,7 +43,7 @@ export default function NaviBar() {
           aria-label="Search"
         />
         <Button variant="outline-success">Search</Button>
-        <a href="Registration"><img className='reges' src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png"/></a>
+        <a href="Registration"><BsFillFilePersonFill className='reges' /></a>
 <FaShoppingCart onClick={() => setCartOpen(!cartOpen)} className={`shop_icon ${cartOpen && 'active'}`}/>
 <div className='basket_account'><p>0</p></div>
 {cartOpen && (
