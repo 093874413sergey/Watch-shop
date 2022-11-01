@@ -1,3 +1,3 @@
 import { createAction } from 'redux-actions';
 
-const addItem = createAction('ADD_ITEM');
+export const addItem = createAction('ADD_ITEM');

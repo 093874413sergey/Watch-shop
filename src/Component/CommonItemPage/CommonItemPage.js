@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './CommonItemPage.css';
 import Navibar from '../Navibar';
+import { useDispatch } from 'react-redux'
+import { addItem } from '../../actions/actions.js'
 import Footer from '../Footer';
 import logo1_0 from '../WatchFoto/1.0.jpg';
 import { BsFillCartCheckFill } from "react-icons/bs";
@@ -11,6 +13,9 @@ import SlayderBuyR from "./SlayderBuyR";
 
 function CommonItemPage ({item}) {
   let [cartOpen, setCartOpen] = useState(false)
+  const dispatch = useDispatch()
+
+  const handleAddItem = () => dispatch(addItem(item))
 
   return(
     <div className="head_buy">
@@ -22,7 +27,7 @@ function CommonItemPage ({item}) {
           <div className="logo_buy">
             <img className="logo1_0" src={logo1_0} alt='#' />
             {item.description({item})}
-            <BsFillCartCheckFill className="buy_rolex"/>
+            <BsFillCartCheckFill onClick={handleAddItem} className="buy_rolex"/>
           </div>
           <div className="carusel_video">
             <div className="carusel_buy">
