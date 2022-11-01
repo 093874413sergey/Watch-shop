@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import './Navibar.css';
 import { Button,Form,Navbar,Container,Nav,NavDropdown,FormControl } from 'react-bootstrap';
 import { FaShoppingCart } from 'react-icons/fa';
+import logo1_0 from './WatchFoto/1.0.jpg';
+import logo2_0 from './WatchFoto/2.0.jpg';
+import logo3_0 from './WatchFoto/3.0.jpg';
+import { BsFillFilePlusFill, BsFileMinusFill } from 'react-icons/bs';
 
 export default function NaviBar() {
   let [cartOpen, setCartOpen] = useState(false)
@@ -40,9 +44,33 @@ export default function NaviBar() {
         <Button variant="outline-success">Search</Button>
         <a href="Registration"><img className='reges' src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png"/></a>
 <FaShoppingCart onClick={() => setCartOpen(!cartOpen)} className={`shop_icon ${cartOpen && 'active'}`}/>
+<div className='basket_account'><p>0</p></div>
 {cartOpen && (
   <div className='shop_blok'>
-
+      <div className='basket_description'>
+          <img src= {logo1_0} />
+          <div className='basket_button'>
+            <BsFillFilePlusFill className='button_plus' />
+            <BsFileMinusFill className='button_minus' />
+            <p>1550$</p>
+          </div>
+      </div>
+      <div className='basket_description'>
+          <img src= {logo2_0} />
+          <div className='basket_button'>
+            <BsFillFilePlusFill className='button_plus' />
+            <BsFileMinusFill className='button_minus' />
+            <p>1600$</p>
+          </div>  
+      </div>
+      <div className='basket_description'>
+          <img src= {logo3_0} />
+          <div className='basket_button'>
+            <BsFillFilePlusFill className='button_plus' />
+            <BsFileMinusFill className='button_minus' />
+            <p>1900$</p>
+          </div>
+      </div>
   </div>
 )}
 

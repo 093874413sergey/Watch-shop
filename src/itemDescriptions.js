@@ -64,6 +64,37 @@ export const itemsToSell = {
           <li className="cost">{item.cost} $</li>
         </ul>
       )
+    },
+    {
+      id: 3,
+      path: 'headRolex3_0',
+      mainImg: 'a',
+      carouselImages: ['a','a'],
+      cost: 1900,
+      description: ({ item }) => (
+        <ul>
+          <li>
+            <h1>Rolex watch</h1>
+          </li>
+          <li>
+            <h2>Mechanism</h2>
+            <p>Mechanical 18 rubyes</p>
+          </li>
+          <li>
+            <h2>Frame</h2>
+            <p>Stainless steel with gilding</p>
+          </li>
+          <li>
+            <h2>Strap</h2>
+            <p>Leather</p>
+          </li>
+          <li>
+            <h2>Dimensions</h2>
+            <p>Diameter 43mm</p>
+          </li>
+          <li className="cost">{item.cost} $</li>
+        </ul>
+      )
     }
   ]
 }
