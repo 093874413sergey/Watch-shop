@@ -1,4 +1,7 @@
 import React from "react";
+import logo1_0 from '../src/Component/WatchFoto/1.0.jpg';
+import logo2_0 from '../src/Component/WatchFoto/2.0.jpg';
+import logo3_0 from '../src/Component/WatchFoto/3.0.jpg';
 import { BsFillCartCheckFill } from "react-icons/bs";
 
 export const itemsToSell = {
@@ -6,7 +9,7 @@ export const itemsToSell = {
     {
       id: 1,
       path: 'headRolex1_0',
-      mainImg: 'a',
+      mainImg: logo1_0,
       carouselImages: ['a','a'],
       cost: 1550,
       description: ({ item }) => (
@@ -37,7 +40,7 @@ export const itemsToSell = {
     {
       id: 2,
       path: 'headRolex2_0',
-      mainImg: 'a',
+      mainImg: logo2_0,
       carouselImages: ['a','a'],
       cost: 1600,
       description: ({ item }) => (
@@ -68,7 +71,7 @@ export const itemsToSell = {
     {
       id: 3,
       path: 'headRolex3_0',
-      mainImg: 'a',
+      mainImg: logo3_0,
       carouselImages: ['a','a'],
       cost: 1900,
       description: ({ item }) => (
