@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Navibar.css';
 import { Button,Form,Navbar,Container,Nav,NavDropdown,FormControl } from 'react-bootstrap';
 import { FaShoppingCart } from 'react-icons/fa';
-import logo2_0 from './WatchFoto/2.0.jpg';
 import { BsFillFilePlusFill, BsFileMinusFill } from 'react-icons/bs';
 import { BsFillFilePersonFill } from 'react-icons/bs';
 import { getBasketItems } from '../selector/selector'
@@ -10,10 +9,16 @@ import { useSelector } from "react-redux";
 
 export default function NaviBar() {
   const [cartOpen, setCartOpen] = useState(false)
-  const basketItems = useSelector(getBasketItems)
+  const basketItems = useSelector(getBasketItems) 
 
   console.log('basketItems', basketItems)
-
+  const [basket, setBasket] = useState(1)
+ function plus() {
+  setBasket (basket + 1)
+ }
+ function minus() {
+  setBasket (basket - 1)
+ }
   return (
 
     <div className='Container_blok'>
@@ -56,9 +61,11 @@ export default function NaviBar() {
                     <div  key={item.id} className='basket_description'>
                       <img src= {item.mainImg} />
                       <div className='basket_button'>
-                        <BsFillFilePlusFill className='button_plus' />
-                        <BsFileMinusFill className='button_minus' />
-                        <p>1550$</p>
+                        <div className='number'>{basket}</div>
+                        <BsFillFilePlusFill onClick={plus} className='button_plus' />
+                        <BsFileMinusFill onClick={minus} className='button_minus' />
+                        <p>{item.cost} $</p>
+                        <div className='button_buy'>Buy</div>
                       </div>
                     </div>
                   ))}

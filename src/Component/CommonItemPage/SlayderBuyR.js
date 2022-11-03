@@ -90,7 +90,7 @@ export default function SlayderBuyR() {
                          Some quick example text to build on the card title and make up the
                          bulk of the card's content.
                        </Card.Text>
-                       <Button  href="headRolex" variant="primary">Want to buy</Button>
+                       <Button  href="headRolex5_0" variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>
@@ -104,7 +104,7 @@ export default function SlayderBuyR() {
                          Some quick example text to build on the card title and make up the
                          bulk of the card's content.
                        </Card.Text>
-                       <Button  href="headRolex" variant="primary">Want to buy</Button>
+                       <Button  href="headRolex6_0" variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>
@@ -122,7 +122,7 @@ export default function SlayderBuyR() {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                       </Card.Text>
-                      <Button  href="headRolex" variant="primary">Want to buy</Button>
+                      <Button  href="headRolex7_0" variant="primary">Want to buy</Button>
                     </Card.Body>
                 </Card>
                 </div>
@@ -136,7 +136,7 @@ export default function SlayderBuyR() {
                          Some quick example text to build on the card title and make up the
                          bulk of the card's content.
                        </Card.Text>
-                       <Button  href="headRolex" variant="primary">Want to buy</Button>
+                       <Button  href="headRolex8_0" variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>
@@ -150,7 +150,7 @@ export default function SlayderBuyR() {
                          Some quick example text to build on the card title and make up the
                          bulk of the card's content.
                        </Card.Text>
-                       <Button  href="headRolex" variant="primary">Want to buy</Button>
+                       <Button  href="headRolex9_0" variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>
@@ -168,7 +168,7 @@ export default function SlayderBuyR() {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                       </Card.Text>
-                      <Button  href="headRolex" variant="primary">Want to buy</Button>
+                      <Button  href="headRolex10_0" variant="primary">Want to buy</Button>
                     </Card.Body>
                 </Card>
                 </div>
@@ -182,7 +182,7 @@ export default function SlayderBuyR() {
                          Some quick example text to build on the card title and make up the
                          bulk of the card's content.
                        </Card.Text>
-                       <Button  href="headRolex" variant="primary">Want to buy</Button>
+                       <Button  href="headRolex11_0" variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>
@@ -196,7 +196,7 @@ export default function SlayderBuyR() {
                          Some quick example text to build on the card title and make up the
                          bulk of the card's content.
                        </Card.Text>
-                       <Button  href="headRolex" variant="primary">Want to buy</Button>
+                       <Button  href="headRolex12_0" variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>

@@ -4,7 +4,6 @@ import Navibar from '../Navibar';
 import { useDispatch } from 'react-redux'
 import { addItem } from '../../actions/actions.js'
 import Footer from '../Footer';
-import logo1_0 from '../WatchFoto/1.0.jpg';
 import { BsFillCartCheckFill } from "react-icons/bs";
 import CaruselRolex from "./CaruselRolex";
 import Video from "./Video";
@@ -25,7 +24,7 @@ function CommonItemPage ({item}) {
         </div>
         <div className="centre_body">
           <div className="logo_buy">
-            <img className="logo1_0" src={logo1_0} alt='#' />
+            <img className="logo1_0" src={item.mainImg} alt='#' />
             {item.description({item})}
             <BsFillCartCheckFill onClick={handleAddItem} className="buy_rolex"/>
           </div>
