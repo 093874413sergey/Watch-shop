@@ -30,7 +30,7 @@ function CommonItemPage ({item}) {
           </div>
           <div className="carusel_video">
             <div className="carusel_buy">
-              <CaruselRolex />
+              <CaruselRolex list={item.carouselImages}/>
             </div>
             <div className="video_buy">
               <Video />
