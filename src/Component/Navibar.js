@@ -5,24 +5,21 @@ import { FaShoppingCart } from 'react-icons/fa';
 import { BsFillFilePlusFill, BsFileMinusFill } from 'react-icons/bs';
 import { BsFillFilePersonFill } from 'react-icons/bs';
 import { getBasketItems } from '../selector/selector'
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { addItem, deleteItem } from "../actions/actions";
 
 export default function NaviBar() {
   const [cartOpen, setCartOpen] = useState(false)
-  const basketItems = useSelector(getBasketItems) 
+  const basketItems = useSelector(getBasketItems)
+  const dispatch = useDispatch()
 
-  console.log('basketItems', basketItems)
-  const [basket, setBasket] = useState(1)
- function plus() {
-  setBasket (basket + 1)
- }
- function minus() {
-  setBasket (basket - 1)
- }
+  const handleAddItem = (item) => () => dispatch(addItem(item))
+  const handleDeleteItem = (item) => () => dispatch(deleteItem(item))
+
   return (
 
     <div className='Container_blok'>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expanhandleDeleteItemd="lg">
         <Container className='header' fluid>
           <img className='img_navbar' src='https://i.pinimg.com/474x/fb/70/7b/fb707b2455bf6435bc637c5e5019ce67.jpg' alt='#'/>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -58,13 +55,13 @@ export default function NaviBar() {
               {cartOpen && (
                 <div className='shop_blok'>
                   {basketItems.map(item=> (
-                    <div  key={item.id} className='basket_description'>
-                      <img src= {item.mainImg} />
+                    <div  key={item.itemData.id} className='basket_description'>
+                      <img src= {item.itemData.mainImg} />
                       <div className='basket_button'>
-                        <div className='number'>{basket}</div>
-                        <BsFillFilePlusFill onClick={plus} className='button_plus' />
-                        <BsFileMinusFill onClick={minus} className='button_minus' />
-                        <p>{item.cost} $</p>
+                        <div className='number'>{item.quantity}</div>
+                        <BsFillFilePlusFill onClick={handleAddItem(item.itemData)} className='button_plus' />
+                        <BsFileMinusFill onClick={handleDeleteItem(item.itemData)} className='button_minus' />
+                        <p>{item.quantity * item.itemData.cost} $</p>
                         <div className='button_buy'>Buy</div>
                       </div>
                     </div>
