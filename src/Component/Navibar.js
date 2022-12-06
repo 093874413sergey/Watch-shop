@@ -12,10 +12,17 @@ export default function NaviBar() {
   const [cartOpen, setCartOpen] = useState(false)
   const basketItems = useSelector(getBasketItems)
   const dispatch = useDispatch()
+<<<<<<< HEAD
 
   const handleAddItem = (item) => () => dispatch(addItem(item))
   const handleDeleteItem = (item) => () => dispatch(deleteItem(item))
   
+=======
+
+  const handleAddItem = (item) => () => dispatch(addItem(item))
+  const handleDeleteItem = (item) => () => dispatch(deleteItem(item))
+
+>>>>>>> cedde47211a6dec59b21be42d06faaf961ef1bd9
   return (
 
     <div className='Container_blok'>
@@ -66,7 +73,11 @@ export default function NaviBar() {
                         <BsFillFilePlusFill onClick={handleAddItem(item.itemData)} className='button_plus' />
                         <BsFileMinusFill onClick={handleDeleteItem(item.itemData)} className='button_minus' />
                         <p>{item.quantity * item.itemData.cost} $</p>
+<<<<<<< HEAD
                         <div onClick={() => alert('Точно хотите купить?')} className='button_buy'>Buy</div>
+=======
+                        <div className='button_buy'>Buy</div>
+>>>>>>> cedde47211a6dec59b21be42d06faaf961ef1bd9
                       </div>
                     </div>
                   ))}

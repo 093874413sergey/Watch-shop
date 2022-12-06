@@ -45,7 +45,11 @@ export function basketReducer(state = initialState, action) {
           newItems.push(state.basketItems[index])
         }
 
+<<<<<<< HEAD
         if(state.basketItems[index].quantity >= 2) {
+=======
+        if(state.basketItems[index].quantity >= 1) {
+>>>>>>> cedde47211a6dec59b21be42d06faaf961ef1bd9
           newItems.push({
             quantity: state.basketItems[index].quantity - 1,
             itemData: action.payload,
