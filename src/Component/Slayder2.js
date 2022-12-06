@@ -208,6 +208,7 @@ export default function Slayder2() {
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur veritatis explicabo odit deserunt, enim ducimus dignissimos libero neque voluptatum officia reiciendis voluptatibus, dolorum quod, repudiandae incidunt amet porro optio nostrum.
 Perferendis quibusdam modi aut inventore doloribus voluptate quae eaque, facilis nesciunt provident a explicabo obcaecati consequatur ducimus quam magni ex in quas libero saepe, odit quisquam! Molestiae vel cumque placeat?
 Quibusdam eum, ullam quae quasi voluptatum vel numquam voluptatem accusantium odit esse culpa incidunt fugiat similique, commodi praesentium ipsam. Nihil quod maxime aliquid voluptate laudantium sunt vero, sed natus temporibus.
+
 </p>
 </div>
 

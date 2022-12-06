@@ -30,7 +30,7 @@ return (
         </Form.Group>
 
        <div className='login_button'>
-       <Button variant="primary" type="submit">
+       <Button onClick={() => alert('Подтвердите!')} variant="primary" type="submit">
                   Login
                 </Button>  
        </div>
@@ -102,7 +102,7 @@ return (
                 <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
 
-            <Button variant="primary" type="submit">
+            <Button onClick={() => alert('Подтвердите!')} variant="primary" type="submit">
             Registre
             </Button>
            </div>

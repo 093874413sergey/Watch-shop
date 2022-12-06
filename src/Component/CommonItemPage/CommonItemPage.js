@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './CommonItemPage.css';
 import Navibar from '../Navibar';
 import { useDispatch } from 'react-redux'
@@ -11,7 +11,6 @@ import InfoR from "./InfoR";
 import SlayderBuyR from "./SlayderBuyR";
 
 function CommonItemPage ({item}) {
-  let [cartOpen, setCartOpen] = useState(false)
   const dispatch = useDispatch()
 
   const handleAddItem = () => dispatch(addItem(item))
@@ -30,7 +29,7 @@ function CommonItemPage ({item}) {
           </div>
           <div className="carusel_video">
             <div className="carusel_buy">
-              <CaruselRolex />
+              <CaruselRolex list={item.carouselImages}/>
             </div>
             <div className="video_buy">
               <Video />

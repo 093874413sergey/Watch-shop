@@ -8,6 +8,9 @@ import logo3_0 from '../WatchFoto/3.0.jpg';
 import logo4_0 from '../WatchFoto/4.0.jpg';
 import logo5_0 from '../WatchFoto/5.0.jpg';
 import logo6_0 from '../WatchFoto/6.0.jpg';
+import logo7_0 from '../WatchFoto/7.0.jpg';
+import logo8_0 from '../WatchFoto/8.0.jpg';
+import logo13_0 from '../WatchFoto/13.0.jpg';
 
 function BasicExample() {
     return (
@@ -92,6 +95,45 @@ function BasicExample() {
                          bulk of the card's content.
                        </Card.Text>
                        <Button href="headRolex6_0"variant="primary">Want to buy</Button>
+                     </Card.Body>
+                 </Card>
+                 </div>
+                 <div className="Card_7">
+                 <Card style={{ width: '20rem' }}>
+                     <Card.Img variant="top" src={logo7_0} />
+                     <Card.Body>
+                       <Card.Title>Rolex</Card.Title>
+                       <Card.Text>
+                         Some quick example text to build on the card title and make up the
+                         bulk of the card's content.
+                       </Card.Text>
+                       <Button href="headRolex7_0"variant="primary">Want to buy</Button>
+                     </Card.Body>
+                 </Card>
+                 </div>
+                 <div className="Card_8">
+                 <Card style={{ width: '20rem' }}>
+                     <Card.Img variant="top" src={logo8_0} />
+                     <Card.Body>
+                       <Card.Title>Rolex</Card.Title>
+                       <Card.Text>
+                         Some quick example text to build on the card title and make up the
+                         bulk of the card's content.
+                       </Card.Text>
+                       <Button href="headRolex8_0"variant="primary">Want to buy</Button>
+                     </Card.Body>
+                 </Card>
+                 </div>
+                 <div className="Card_9">
+                 <Card style={{ width: '20rem' }}>
+                     <Card.Img variant="top" src={logo13_0} />
+                     <Card.Body>
+                       <Card.Title>Rolex</Card.Title>
+                       <Card.Text>
+                         Some quick example text to build on the card title and make up the
+                         bulk of the card's content.
+                       </Card.Text>
+                       <Button href="headRolex13_0"variant="primary">Want to buy</Button>
                      </Card.Body>
                  </Card>
                  </div>
