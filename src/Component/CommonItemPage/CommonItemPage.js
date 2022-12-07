@@ -24,8 +24,10 @@ function CommonItemPage ({item}) {
         <div className="centre_body">
           <div className="logo_buy">
             <img className="logo1_0" src={item.mainImg} alt='#' />
+            <div className='2'>
             {item.description({item})}
             <BsFillCartCheckFill onClick={handleAddItem} className="buy_rolex"/>
+            </div>
           </div>
           <div className="carusel_video">
             <div className="carusel_buy">

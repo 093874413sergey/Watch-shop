@@ -52,7 +52,7 @@ function BasicExample() {
                  </div>
                  <div className="Card_4">   
                  <Card style={{ width: '20rem' }}>
-                     <Card.Img variant="top" src="https://www.berrysjewellers.co.uk/images/patek-philippe-annual-calendar-chronograph-platinum-black-dial-automatic-mens-leather-strap-watch-p5389-18306_image.jpg" />
+                     <Card.Img variant="top" src="https://www.youarrived.com/wp-content/uploads/2019/12/webp.net-resizeimage_18__3_15.jpg" />
                      <Card.Body>
                        <Card.Title>Patek philippe</Card.Title>
                        <Card.Text>
