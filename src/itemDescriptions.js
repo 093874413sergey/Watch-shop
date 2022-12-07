@@ -144,7 +144,6 @@ import logo13_7 from '../src/Component/WatchFoto/13.7.jpg';
 import logo13_8 from '../src/Component/WatchFoto/13.8.jpg';
 import logo13_9 from '../src/Component/WatchFoto/13.9.jpg';
 import carousel1_1 from '../src/Component/WatchFoto/1.1.jpg';
-import { BsFillCartCheckFill } from "react-icons/bs";
 
 export const itemsToSell = {
   items: [
@@ -153,7 +152,6 @@ export const itemsToSell = {
       path: 'headRolex1_0',
       mainImg: logo1_0,
       carouselImages: [[logo1_1,logo1_2],[logo1_3,logo1_4],[logo1_5,logo1_6],[logo1_7,logo1_8],[logo1_9,logo1_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1550,
       description: ({ item }) => (
         <ul>
@@ -185,7 +183,6 @@ export const itemsToSell = {
       path: 'headRolex2_0',
       mainImg: logo2_0,
       carouselImages: [[logo2_1,logo2_2],[logo2_3,logo2_4],[logo2_5,logo2_6],[logo2_7,logo2_0]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1600,
       description: ({ item }) => (
         <ul>
@@ -217,7 +214,6 @@ export const itemsToSell = {
       path: 'headRolex3_0',
       mainImg: logo3_0,
       carouselImages: [[logo3_1,logo3_2],[logo3_3,logo3_4],[logo3_5,logo3_6],[logo3_7,logo3_8],[logo3_9,logo3_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1900,
       description: ({ item }) => (
         <ul>
@@ -249,7 +245,6 @@ export const itemsToSell = {
       path: 'headRolex4_0',
       mainImg: logo4_0,
       carouselImages: [[logo4_1,logo4_2],[logo4_3,logo4_4],[logo4_5,logo4_6],[logo4_7,logo4_8]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1870,
       description: ({ item }) => (
         <ul>
@@ -281,7 +276,6 @@ export const itemsToSell = {
       path: 'headRolex5_0',
       mainImg: logo5_0,
       carouselImages: [[logo5_1,logo5_2],[logo5_3,logo5_4],[logo5_5,logo5_6],[logo5_7,logo5_8],[logo5_9,logo5_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1630,
       description: ({ item }) => (
         <ul>
@@ -313,7 +307,6 @@ export const itemsToSell = {
       path: 'headRolex6_0',
       mainImg: logo6_0,
       carouselImages: [[logo6_1,logo6_2],[logo6_3,logo6_4],[logo6_5,logo6_6],[logo6_7,logo6_8],[logo6_9,logo6_0]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1940,
       description: ({ item }) => (
         <ul>
@@ -345,7 +338,6 @@ export const itemsToSell = {
       path: 'headRolex7_0',
       mainImg: logo7_0,
       carouselImages: [[logo7_1,logo7_2],[logo7_3,logo7_4],[logo7_5,logo7_6],[logo7_7,logo7_8]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1660,
       description: ({ item }) => (
         <ul>
@@ -377,7 +369,6 @@ export const itemsToSell = {
       path: 'headRolex8_0',
       mainImg: logo8_0,
       carouselImages: [[logo8_1,logo8_2],[logo8_3,logo8_4],[logo8_5,logo8_6],[logo8_7,logo8_8],[logo8_9,logo8_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1990,
       description: ({ item }) => (
         <ul>
@@ -409,7 +400,6 @@ export const itemsToSell = {
       path: 'headRolex9_0',
       mainImg: logo9_0,
       carouselImages: [[logo9_1,logo9_2],[logo9_3,logo9_4],[logo9_5,logo9_6],[logo9_7,logo9_8],[logo9_9,logo9_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1790,
       description: ({ item }) => (
         <ul>
@@ -441,7 +431,6 @@ export const itemsToSell = {
       path: 'headRolex10_0',
       mainImg: logo10_0,
       carouselImages: [[logo10_1,logo10_2],[logo10_3,logo10_4],[logo10_5,logo10_6],[logo10_7,logo10_8],[logo10_9,logo10_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1595,
       description: ({ item }) => (
         <ul>
@@ -473,7 +462,6 @@ export const itemsToSell = {
       path: 'headRolex11_0',
       mainImg: logo11_0,
       carouselImages: [[logo11_1,logo11_2],[logo11_3,logo11_4],[logo11_5,logo11_6],[logo11_7,logo11_8],[logo11_9,logo11_10]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1910,
       description: ({ item }) => (
         <ul>
@@ -505,7 +493,6 @@ export const itemsToSell = {
       path: 'headRolex12_0',
       mainImg: logo12_0,
       carouselImages: [[logo12_1,logo12_2],[logo12_3,logo12_4],[logo12_5,logo12_6],[logo12_7,logo12_8]],
-      carouselImages: [[carousel1_1,carousel1_1],[carousel1_1,carousel1_1]],
       cost: 1945,
       description: ({ item }) => (
         <ul>
