@@ -15,9 +15,8 @@ import { addItem, deleteItem } from "../actions/actions";
 
   const handleAddItem = (item) => () => dispatch(addItem(item))
   const handleDeleteItem = (item) => () => dispatch(deleteItem(item))
- 
-  return (
 
+  return (
     <div className='Container_blok'>
       <Navbar bg="light" expanhandleDeleteItemd="lg">
         <Container className='header' fluid>
@@ -60,7 +59,7 @@ import { addItem, deleteItem } from "../actions/actions";
                 <div className='shop_blok'>
                   {basketItems.map(item=> (
                     <div  key={item.itemData.id} className='basket_description'>
-                      <img src= {item.itemData.mainImg} />
+                      <img src= {`/pictures/WatchFoto/${item.itemData.mainImg}`} />
                       <div className='basket_button'>
                         <div className='number'>{item.quantity}</div>
                         <BsFillFilePlusFill onClick={handleAddItem(item.itemData)} className='button_plus' />

@@ -8,7 +8,7 @@ import { BsFillCartCheckFill } from "react-icons/bs";
 import CaruselRolex from "./CaruselRolex";
 import Video from "./Video";
 import InfoR from "./InfoR";
-import SlayderBuyR from "./SlayderBuyR";
+import AllItemSlider from '../AllItemSlider'
 
 function CommonItemPage ({item}) {
   const dispatch = useDispatch()
@@ -23,7 +23,7 @@ function CommonItemPage ({item}) {
         </div>
         <div className="centre_body">
           <div className="logo_buy">
-            <img className="logo1_0" src={item.mainImg} alt='#' />
+            <img src={`/pictures/WatchFoto/${item.mainImg}`} alt="Main image of product"/>
             <div className='2'>
             {item.description({item})}
             <BsFillCartCheckFill onClick={handleAddItem} className="buy_rolex"/>
@@ -40,7 +40,7 @@ function CommonItemPage ({item}) {
           <div className="info_buy">
             <InfoR />
           </div>
-          <SlayderBuyR />
+          <AllItemSlider />
         </div>
         <div className="right_body">
         </div>
