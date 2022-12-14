@@ -1,6 +1,6 @@
 .head_buy {
     width: 100%;
-    height: 100%;
+    max-height: 100%;
 }
 .body_body {
 display: flex;
@@ -19,19 +19,21 @@ max-height: 100%;
 }
 .logo_buy {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     max-height: 100%;
+    margin: 10px;
 }
-.logo1_0 {
-   max-width: 100%;
-   height: 600px;
-   margin: 50px;
-   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+.logo_buy img {
+    width: 50%;
+    height: 100%;
+}
+.data_watch {
+width: 100%;
+height: 100%;
+padding: 0px 20px; 
 }
 .centre_body ul {
-margin: 50px;
+margin:40px;
 list-style-type: none;
 }
 .cost {
@@ -53,17 +55,19 @@ list-style-type: none;
     transform: scale(1.3);
 }
 .carusel_video {
+    width: 100%;
+    max-height: 100%;
     display: flex;
 }
 .carusel_buy {
-    width: 600px;
-    max-height: 100%;
-    margin: -30px 10px 10px 50px;
+    max-width: 100%;
+    height: 100%;
+    padding: 0px 20px 0px 10px;
 }
 .video_buy {
     max-width: 100%;
     height: 100%;
-    margin: -30px 50px 10px 0px;
+    padding: 0px 10px;
 }
 .info_buy {
     width: 100%;

@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player/youtube';
 
 function Video () {
     return(
-        <div className="video">
+        <div>
             <ReactPlayer url='https://www.youtube.com/watch?v=ZN0NHhdpsII&ab_channel=ROLEX' 
             playing={true}
             controls={true}

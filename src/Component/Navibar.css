@@ -1,4 +1,6 @@
-
+.navbar {
+    padding-bottom: 1px;
+}
 .Container_blok {
    margin-bottom: -8px;
 }
@@ -17,7 +19,6 @@ height: 40px;
 margin: 15px 5px ;
 }
 .header{
-    padding-bottom: 10px;
     background-color: rgb(84, 69, 69);     
 }
 .btn-outline-success {
