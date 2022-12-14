@@ -24,7 +24,11 @@ function CommonItemPage ({item}) {
         <div className="centre_body">
           <div className="logo_buy">
             <img src={`/pictures/WatchFoto/${item.mainImg}`} alt="Main image of product"/>
+<<<<<<< HEAD
             <div className='data_watch'>
+=======
+            <div className='2'>
+>>>>>>> 218ea72a3c552cff801239ac00b5b9ab34401eea
             {item.description({item})}
             <BsFillCartCheckFill onClick={handleAddItem} className="buy_rolex"/>
             </div>

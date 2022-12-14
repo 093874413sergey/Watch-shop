@@ -5,8 +5,13 @@ export const itemsToSell = {
     {
       id: 1,
       path: '/headRolex1_0',
+<<<<<<< HEAD
       title: 'Rolex',
       shortDescription: `Some quick example text to build on the card title and make up the bulk of the card's content.`,
+=======
+      title: 'Casio',
+      shortDescription: `Wonderful underwater watch`,
+>>>>>>> 218ea72a3c552cff801239ac00b5b9ab34401eea
       mainImg: '1.0.jpg',
       carouselImages: [['1.1.jpg','1.2.jpg'],['1.3.jpg','1.4.jpg'],['1.5.jpg','1.6.jpg'],['1.7.jpg','1.8.jpg'],['1.9.jpg','1.10.jpg']],
       cost: 1550,

@@ -16,8 +16,12 @@ export default function Content() {
           <div className="Rolex_a">
             <a href="about"><span>Rolex</span></a>
           </div>
+<<<<<<< HEAD
           
           <img className="img_watch" src="/pictures/WatchFoto/2.0.jpg"  alt="#" />
+=======
+          <img className="img_watch" src="/pictures/WatchFoto/11.0.jpg" alt="#"/>
+>>>>>>> 218ea72a3c552cff801239ac00b5b9ab34401eea
           <span>Skeleton</span> - the brightest and most unusual watch model,
           equipped with transparent durable glass, through which neatly carved,
           high-quality details are visible <br/>
