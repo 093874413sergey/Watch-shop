@@ -1,5 +1,5 @@
 .navbar {
-    padding-bottom: 1px;
+    padding: 0px;
 }
 .Container_blok {
    margin-bottom: -8px;
@@ -15,10 +15,12 @@
     margin: 15px 5px;
 }
 .btn {
-height: 40px;
-margin: 15px 5px ;
+    height: 40px;
+    margin: 15px 5px ;
 }
 .header{
+    width: 100%;
+    height: 80px;
     background-color: rgb(84, 69, 69);     
 }
 .btn-outline-success {
@@ -41,17 +43,17 @@ margin: 15px 5px ;
     height: 60px;
     margin: 5px;
     color:  rgb(38,31,31);
- cursor: pointer;
- transition: color, transform  500ms ease;
+    cursor: pointer;
+    transition: color, transform  500ms ease;
 }
 .basket_account {
-position: relative;
-top: 5px;
-left: 0px;
-max-width: 100%;
-height: 20px;
-border-radius: 40%;
-background-color: rgb(25,135,84);
+    position: relative;
+    top: 5px;
+    left: 0px;
+    max-width: 100%;
+    height: 20px;
+    border-radius: 40%;
+    background-color: rgb(25,135,84);
 }
 .basket_account p {
     margin: 2px 5px;
@@ -69,23 +71,22 @@ background-color: rgb(25,135,84);
     border-radius: 10px;
     z-index: 100;
     box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
--webkit-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
--moz-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
+    -webkit-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
+    -moz-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
 }
 .shop_blok img {
     max-width: 100%;
     height: 200px;
     margin: 10px;
     box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
--webkit-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
--moz-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
+    -webkit-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
+    -moz-box-shadow: 9px 8px 11px 0px rgba(5,5,5,0.64);
 }
 .basket_description {
-display: flex;
-margin: 10px;
-font-size: 35px;
-font-family: fantasy;
-
+    display: flex;
+    margin: 10px;
+    font-size: 35px;
+    font-family: fantasy;
 }
 .basket_button {
     position: relative;
@@ -98,14 +99,12 @@ font-family: fantasy;
     position: relative;
     top: -40px;
     left: 10px;
-
 }
 .button_plus {
     width: 50px;
     height: 40px;
     cursor: pointer;
-    transition: color, transform  500ms ease;
-    
+    transition: color, transform  500ms ease; 
 }
 .button_plus:hover {
     color: rgb(25,135,84);
@@ -127,8 +126,8 @@ font-family: fantasy;
     background-color: rgb(33,37,41);
     color: white;
     text-align: center;
-   margin: 0px 10px;
-   border-radius: 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
     cursor: pointer;
     transition: color, transform  500ms ease;
 }

@@ -5,11 +5,11 @@ import Footer from '../Footer';
 
 function HeaderR() {
     return (
-<div>
+<>
 <NaviBar />
 <ContentHisR />
 <Footer />
-</div>
+</>
     )
 }
 export default HeaderR;

@@ -14,13 +14,11 @@ function CommonItemPage ({item}) {
   const dispatch = useDispatch()
 
   const handleAddItem = () => dispatch(addItem(item))
-
   return(
     <div className="head_buy">
       <Navibar />
       <div className="body_body">
-        <div className="left_body">
-        </div>
+        <div className="left_body"/>
         <div className="centre_body">
           <div className="logo_buy">
             <img src={`/pictures/WatchFoto/${item.mainImg}`} alt="Main image of product"/>
@@ -42,8 +40,7 @@ function CommonItemPage ({item}) {
           </div>
           <AllItemSlider />
         </div>
-        <div className="right_body">
-        </div>
+        <div className="right_body"/>
       </div>
       <Footer />
     </div>

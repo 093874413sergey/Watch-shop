@@ -26,16 +26,15 @@ import { addItem, deleteItem } from "../actions/actions";
             <Nav
               className="me-auto my-2 my-lg-0"
               style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
+              navbarScroll>
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="about">Rolex</Nav.Link>
-              <Nav.Link href="aboutPP">Patek Philippe</Nav.Link>
+              <Nav.Link href="/about-rolex">Rolex</Nav.Link>
+              <Nav.Link href="/about-patek">Patek Philippe</Nav.Link>
               <NavDropdown title="History" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="historyR">History Rolex</NavDropdown.Item>
-                <NavDropdown.Item href="historyPP">History Patek Philippe</NavDropdown.Item>
+                <NavDropdown.Item href="/history-rolex">History Rolex</NavDropdown.Item>
+                <NavDropdown.Item href="/history-patek">History Patek Philippe</NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="aboutus">
+                <NavDropdown.Item href="/about-us">
                   About us
                 </NavDropdown.Item>
               </NavDropdown>
@@ -75,7 +74,6 @@ import { addItem, deleteItem } from "../actions/actions";
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
     </div>
   )
 }

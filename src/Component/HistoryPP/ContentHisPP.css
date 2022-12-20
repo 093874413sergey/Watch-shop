@@ -15,7 +15,7 @@
     z-index: 2;  
 }
 .Logo_HisPP{
-    position: relative;
+    position: sticky;
     top: 200px;
     left: 0px;
     width: 100%;
@@ -28,8 +28,7 @@
     max-height: 100%;
     margin: 20px 0px 0px 0px; 
 }
-.textHisPP,
-.text2HisPP {
+.textHisPP {
     font-family: sans-serif;
     font-size: 20px;
     padding: 10px;

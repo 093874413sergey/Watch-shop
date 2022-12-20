@@ -2,7 +2,6 @@
     display: flex;
     max-width: 100%;
     height: 100%;
-    
 }
 .Left_blok {
     width: 195px;
@@ -18,12 +17,7 @@
     max-height: 100%;
     z-index: 1;
 }
-.Card_1,
-.Card_2,
-.Card_3,
-.Card_4,
-.Card_5,
-.Card_6 {
+.Card {
 padding: 20px;
 }
 .Right_blok {

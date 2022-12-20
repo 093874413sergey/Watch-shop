@@ -6,16 +6,12 @@ import Footer from '../Footer';
 
 function MainPage() {
   return (  
-<div className='wrapper'>
+<>
 <NaviBar />
 <Slayder />
 <Content />
 <Footer />
-
-</div>
-
+</>
   )   
 }
-
-
 export default MainPage;
