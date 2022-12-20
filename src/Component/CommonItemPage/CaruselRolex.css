@@ -10,3 +10,6 @@ max-width: 100%;
 max-height: 300px;
 padding: 0px 5px;
 }
+.carousel-indicators {
+    bottom: -40px;
+}

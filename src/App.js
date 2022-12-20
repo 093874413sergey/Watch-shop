@@ -1,9 +1,5 @@
 import React from 'react';
-import {
-  Route,
-  BrowserRouter,
-  Routes
-} from 'react-router-dom';
+import { Route,BrowserRouter,Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import MainPage from './Component/MainPage';
 import AboutWatch from './Component/AboutWatch/HeaderCard';
@@ -17,7 +13,6 @@ import {itemsToSell} from './itemDescriptions'
 
 function App() {
   return (
-    <>
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<MainPage />} />
@@ -32,7 +27,6 @@ function App() {
         })}
         </Routes>
     </BrowserRouter>
-    </>
   )
 }
 export default App;

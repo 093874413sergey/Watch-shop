@@ -12,7 +12,6 @@ import AllItemSlider from '../AllItemSlider'
 
 function CommonItemPage ({item}) {
   const dispatch = useDispatch()
-
   const handleAddItem = () => dispatch(addItem(item))
   return(
     <div className="head_buy">

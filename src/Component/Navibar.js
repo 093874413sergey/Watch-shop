@@ -12,9 +12,11 @@ import { addItem, deleteItem } from "../actions/actions";
   const [cartOpen, setCartOpen] = useState(false)
   const basketItems = useSelector(getBasketItems)
   const dispatch = useDispatch()
-
   const handleAddItem = (item) => () => dispatch(addItem(item))
   const handleDeleteItem = (item) => () => dispatch(deleteItem(item))
+
+  let totalQuantity = 0;
+  basketItems.forEach(({quantity}) => totalQuantity += quantity )
 
   return (
     <div className='Container_blok'>
@@ -48,12 +50,8 @@ import { addItem, deleteItem } from "../actions/actions";
               />
               <Button variant="outline-success">Search</Button>
               <a href="Registration"><BsFillFilePersonFill className='reges' /></a>
-              <FaShoppingCart onClick={() => setCartOpen(!cartOpen)} className={`shop_icon ${cartOpen && 'active'}`}/>
-              {basketItems.map(basNumber=> (
-                <div key={basNumber.itemData.id}>
-                  <div className='basket_account'><p>{basNumber.quantity}</p></div>
-                </div>
-              ))}
+              <FaShoppingCart onClick={() => setCartOpen(!cartOpen)} className='shop_icon'/>               
+              <div className='basket_account'><p>{totalQuantity}</p></div>                     
               {cartOpen && (
                 <div className='shop_blok'>
                   {basketItems.map(item=> (
