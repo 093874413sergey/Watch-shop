@@ -43,6 +43,7 @@ export function basketReducer(state = initialState, action) {
 
         if(state.basketItems[index].itemData.id !== action.payload.id) {
           newItems.push(state.basketItems[index])
+          continue
         }
 
         if(state.basketItems[index].quantity >= 2) {
